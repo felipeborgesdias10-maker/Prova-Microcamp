@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Financiamento - AutoPrime</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>AutoPrime Veículos</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="estoque.html">Estoque</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="financiamento.html">Financiamento</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+</header>
+<header><h1>Simulador de Financiamento</h1></header>
+
+<div class="container">
+    <div class="card">
+        <label>Valor do veículo:</label>
+        <input type="number" id="valor" placeholder="Ex: 90000">
+
+        <label>Nº de parcelas:</label>
+        <input type="number" id="parcelas" placeholder="Ex: 48">
+
+        <button onclick="simularFinanciamento()">Simular</button>
+
+        <p id="resultado"></p>
+    </div>
+</div>
+
+<footer>© 2025 AvantGarde Veículos</footer>
+</body>
+</html>
